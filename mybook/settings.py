@@ -37,8 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cms.apps.CmsConfig', # cms
-    'bootstrap4', # django-bootstap4
+    'cms.apps.CmsConfig',   # cms
+    'api.apps.ApiConfig',   # config
+    'bootstrap4',   # django-bootstap4
+
 ]
 
 MIDDLEWARE = [

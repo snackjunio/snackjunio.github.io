@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e15936-06a6-4ade-b8cc-4a41039f7300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/templates/cms/impression_edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/templates/cms/impression_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/cms/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/cms/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/templates/cms/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/cms/templates/cms/book_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cms/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cms/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cms/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybook/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mybook/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybook/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mybook/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
