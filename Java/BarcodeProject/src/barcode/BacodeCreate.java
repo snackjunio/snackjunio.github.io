@@ -23,7 +23,7 @@ public class BacodeCreate {
 			Code128Writer writer = new Code128Writer();
 			BitMatrix bitMatrix = writer.encode(contents, format, width, height);
 			BufferedImage image = MatrixToImageWriter.toBufferedImage(bitMatrix);
-			ImageIO.write(image, "png", new File("C:\\Users\\2016NEC42\\Desktop\\image\\barcode.png"));
+			ImageIO.write(image, "png", new File("barcode.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (WriterException e) {

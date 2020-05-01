@@ -21,24 +21,25 @@ import com.google.zxing.oned.Code128Reader;
 
 public class BarcodeReader {
 	public static final void main(String[] args) throws ChecksumException {
-		String input = "C:\\Users\\2016NEC42\\Desktop\\image\\barcode.png";
+		String input = "barcode.png";
 		try {
+			/*
+			 * 画像データを読み込む
+			 * 画像データを読み込んだら、別のファイルで保存する
+			 */
 			BufferedImage image = ImageIO.read(new File(input));
-			FileWriter wr = new FileWriter("C:\\Users\\2016NEC42\\Desktop\\image\\file.txt");
-			BufferedWriter wt = new BufferedWriter(wr);
-			
+			FileWriter file = new FileWriter("file.txt");
+			BufferedWriter bw = new BufferedWriter(file);
 			LuminanceSource source = new BufferedImageLuminanceSource(image);
 			Binarizer binarizer = new HybridBinarizer(source);
 			BinaryBitmap bitmap = new BinaryBitmap(binarizer);
+			//Code128読み込む
 			Code128Reader reader = new Code128Reader();
-			
 			Result rs = reader.decode(bitmap);
-			
+			//返す結果はString変数を変換する
 			String r = String.valueOf(rs);
-			wt.write(r);
-			wt.close();
-			System.out.println(rs.getText());
-
+			bw.write(r);
+			bw.close();
 		}
 		catch(NotFoundException e) {
 			 System.err.println("[" + input + "] イメージの中にバーコードが見つからないためデコードで例外が発生.");
