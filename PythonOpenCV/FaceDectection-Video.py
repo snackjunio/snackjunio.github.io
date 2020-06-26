@@ -3,8 +3,8 @@ import cv2
 
 def main():
     # OpenCVから顔と目をわかるようにライブラリを呼び出す(Path)
-    face_path = r'C:\Users\2016NEC42\Desktop\Python\OpenCV-project\opencv\sources\data\haarcascades_cuda\haarcascade_frontalface_default.xml'
-    eye_path = r'C:\Users\2016NEC42\Desktop\Python\OpenCV-project\opencv\sources\data\haarcascades_cuda\haarcascade_eye.xml'
+    face_path = r'opencv\sources\data\haarcascades_cuda\haarcascade_frontalface_default.xml'
+    eye_path = r'opencv\sources\data\haarcascades_cuda\haarcascade_eye.xml'
     # ライブラリを呼び出してからcv2にimport
     face_in = cv2.CascadeClassifier(face_path)
     eye_in = cv2.CascadeClassifier(eye_path)
