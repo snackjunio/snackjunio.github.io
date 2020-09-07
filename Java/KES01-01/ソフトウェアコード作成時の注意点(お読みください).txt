@@ -1,0 +1,24 @@
+●ソフトウェアコード作成時の注意点
+　
+　「注文を登録する」機能，「配達を確認する」機能のソフトウェアコード作成は，次の
+　ように行います。
+
+　　・actionフォルダ，controlフォルダ，daoフォルダ，modelフォルダ内のファイルを，
+　　　Eclipseの対象のパッケージに上書きする。
+
+　　・Itemクラス，Taxクラス，OrderDetailクラスは，modelパッケージのテンプレート
+　　　を使用して作成する。
+
+　　・ControlDBAccessクラスは，daoパッケージに新規作成する。
+　　
+　　・ItemMenuDisplayDBAccessクラス，OrderConfirmDBAccessクラス，OrderRegister-
+　　　DBAccessクラス，TaxSearchDBAccessクラス，DeliveryConfirmDBAccessクラスは，
+　　　daoパッケージのテンプレートを使用して作成する。
+　　
+　　・ItemMenuDisplayActionクラス，OrderRegisterActionクラスは，DeliveryConfirm-
+　　　Actionクラスは，actionパッケージのテンプレートを使用して作成する。
+　　
+　　・KiddaLaControllerクラスは，controlパッケージにすでに存在する同じ名前のクラス
+　　　に，itemMenuDisplay()メソッド，orderRegister()メソッド，deliveryConfirm()
+　　　メソッドを追加する。
+
