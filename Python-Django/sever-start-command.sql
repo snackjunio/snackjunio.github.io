@@ -99,20 +99,6 @@ cur = conn.cursor()
 cur.execute('SQL Query')
 conn.commit()
 
-
-
-
-
---SEO--
-http://stg.gpsa.gooparts.com/
-sunseer
-sunseer2014
-0100001
-abcdefg
-
-idac
-idac1129
-
 --Linux--
 cd 移動
 ls 中身をみたいフォルダに移動して
